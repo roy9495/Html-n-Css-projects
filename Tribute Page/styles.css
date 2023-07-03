@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    background-color: rgba(0, 255, 0, 0.2);
+    color: black;
+    font-family: Calibri, sans-serif;
+    margin: 0 20%;
+    padding: 20px;
+  }
+  
+  /* Main Styles */
+  #main {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 10px grey;
+  }
+  
+  #image {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #img-caption {
+    font-size: 16px;
+    margin-top: 10px;
+    width: 500 px;
+  }
+  
+  #tribute-info {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Link Styles */
+  #tribute-link {
+    text-decoration: none;
+    color: #008080;
+    transition: color 0.3s ease;
+  }
+  
+  #tribute-link:hover {
+    color: #006060;
+  }
+  
