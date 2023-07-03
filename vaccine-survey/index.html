@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaccine Registration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Vaccine Registration</h1>
+  <p id="description"><i>Thank you for taking the time to submit the details</i></p>
+  <form id="survey-form">
+    <div class="form-control">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your Name" required />
+    </div>
+    <div class="form-control">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your Email" required />
+    </div>
+    <div class="form-control">
+      <label for="age" id="number-label">Age</label>
+      <input type="number" id="number" placeholder="Enter your age" required min="0" max="200" />
+    </div>
+    <div class="form-control">
+      <label for="role">Occupation</label>
+      <select name="role" id="dropdown">
+        <option value="student">Student</option>
+        <option value="employed">Employed</option>
+        <option value="self-employed">Self-employed</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="prefer not to say">Prefer not to say</option>
+      </select>
+    </div>
+    <div class="form-control">
+      <label>Gender</label>
+      <label for="gender-1"><input type="radio" id="gender-1" name="gender" value="male">Male</label>
+      <label for="gender-2"><input type="radio" id="gender-2" name="gender" value="female">Female</label>
+      <label for="gender-3"><input type="radio" id="gender-3" name="gender" value="other">Other</label>
+    </div>
+    <div class="form-control">
+      <label>Comorbidities</label>
+
+      <label for="comorbidities-1"><input type="checkbox" name="comorbidities" id="comorbidities-1" value="comorbidities-1" />Cancer</label>
+      <label for="comorbidities-2"><input type="checkbox" name="comorbidities" id="comorbidities-2" value="comorbidities-2" />Chronic Kidney disease</label>
+      <label for="comorbidities-3"><input type="checkbox" name="comorbidities" id="comorbidities-3" value="comorbidities-3" />Chronic lung diseases</label>
+      <label for="comorbidities-4"><input type="checkbox" name="comorbidities" id="comorbidities-4" value="comorbidities-4" />Neurological conditions</label>
+      <label for="comorbidities-5"><input type="checkbox" name="comorbidities" id="comorbidities-5" value="comorbidities-5" />Diabetes</label>
+      <label for="comorbidities-6"><input type="checkbox" name="comorbidities" id="comorbidities-6" value="comorbidities-6" />Down syndrome</label>
+      <label for="comorbidities-7"><input type="checkbox" name="comorbidities" id="comorbidities-7" value="comorbidities-7" />Heart conditions</label>
+      <label for="comorbidities-8"><input type="checkbox" name="comorbidities" id="comorbidities-8" value="comorbidities-8" />HIV infection</label>
+      <label for="comorbidities-9"><input type="checkbox" name="comorbidities" id="comorbidities-9" value="comorbidities-9" />Obesity</label>
+    </div>
+
+    <div class="form-control">
+      <label for="comments">Any feedback?</label>
+      <textarea name="comments" id="comments" placeholder="Enter your feedback here...."></textarea>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+
+</html>
